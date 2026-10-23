@@ -1,0 +1,2 @@
+insert into public.categories(name) values ('Biryani'),('Pizza'),('Burgers'),('Chicken'),('South Indian'),('Chinese'),('Desserts'),('Beverages') on conflict do nothing;
+-- Add restaurants and foods from the dashboard after auth is configured. Demo UI data is in lib/data.ts.

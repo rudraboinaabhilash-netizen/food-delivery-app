@@ -1,0 +1,7 @@
+ "use client";
+import Link from "next/link"; import {Search,ShoppingBag,MapPin,Menu} from "lucide-react"; import {useCart} from "./cart-provider";
+export default function Navbar(){const{items}=useCart();return <header className="sticky top-0 z-30 border-b bg-white/90 backdrop-blur"><div className="container flex h-16 items-center gap-5">
+<Link href="/" className="text-2xl font-black"><span className="text-[#ff6b1a]">NANI</span> Eats</Link>
+<div className="hidden md:flex items-center gap-2 text-sm text-neutral-600"><MapPin size={17} className="text-[#ff6b1a]"/> Hyderabad <span className="text-neutral-300">|</span> Deliver to you</div>
+<div className="hidden md:flex flex-1 max-w-xl mx-auto"><Link href="/restaurants" className="w-full flex items-center gap-3 rounded-xl bg-neutral-100 px-4 py-2.5 text-sm text-neutral-500"><Search size={18}/>Search for restaurants or dishes</Link></div>
+<div className="ml-auto flex items-center gap-2"><Link href="/login" className="hidden sm:block btn">Login</Link><Link href="/cart" className="relative btn btn-primary"><ShoppingBag size={18}/><span className="hidden sm:inline">Cart</span>{items.length>0&&<b className="absolute -right-2 -top-2 grid h-5 w-5 place-items-center rounded-full bg-black text-xs">{items.length}</b>}</Link><Menu className="md:hidden"/></div></div></header>}

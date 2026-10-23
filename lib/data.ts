@@ -1,0 +1,11 @@
+export const categories=[["🍕","Pizza"],["🍔","Burgers"],["🍛","Biryani"],["🍗","Chicken"],["🥘","Indian"],["🥡","Chinese"],["🥞","South Indian"],["🍰","Desserts"],["🥗","Healthy"],["🥤","Beverages"]];
+export const restaurants=[
+{id:"1",name:"NANI Biryani House",cuisine:"Biryani • North Indian",rating:4.7,time:"25–30 min",fee:39,offer:"20% OFF",image:"https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80"},
+{id:"2",name:"Urban Burger",cuisine:"Burgers • Fast Food",rating:4.5,time:"20–25 min",fee:29,offer:"FREE DELIVERY",image:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80"},
+{id:"3",name:"Pizza Street",cuisine:"Pizza • Italian",rating:4.6,time:"30–35 min",fee:49,offer:"15% OFF",image:"https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=80"},
+{id:"4",name:"Spice Garden",cuisine:"Indian • Chinese",rating:4.4,time:"30–40 min",fee:35,offer:"10% OFF",image:"https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80"}];
+export const foods=[
+{id:"f1",name:"Chicken Dum Biryani",description:"Fragrant basmati rice, tender chicken and house spices.",price:249,image:"https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=700&q=80",restaurant:"NANI Biryani House"},
+{id:"f2",name:"Paneer Biryani",description:"Aromatic rice with spiced paneer and herbs.",price:219,image:"https://images.unsplash.com/photo-1631515242808-497c3fbd3972?auto=format&fit=crop&w=700&q=80",restaurant:"NANI Biryani House"},
+{id:"f3",name:"Classic Smash Burger",description:"Double patty, cheddar, onions and signature sauce.",price:189,image:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80",restaurant:"Urban Burger"},
+{id:"f4",name:"Farmhouse Pizza",description:"Mozzarella, peppers, onion, mushroom and olives.",price:299,image:"https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=700&q=80",restaurant:"Pizza Street"}];
